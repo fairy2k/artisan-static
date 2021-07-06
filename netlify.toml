@@ -3,3 +3,9 @@
 command = "npm run prod"
 publish = "build_production"
 environment = { PHP_VERSION = "7.4", NODE_VERSION = "12.16.1" }
+
+[[redirects]]
+  from = "https://akuma.cf"
+  to = "https://discordapp.com/invite/PsQYzJZNvk"
+  status = 301
+  force = true
